@@ -26,7 +26,7 @@ public class Expense{
     private LocalDate date;
 
 
-    @ManyToOne(FetchType.LAZY)   // Many Expenses -----> One Category
+    @ManyToOne   // Many Expenses -----> One Category
     @JoinColumn(name = "category_id", nullable = false)
     private Category category;
 

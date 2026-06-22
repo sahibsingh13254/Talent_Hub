@@ -18,6 +18,4 @@ public class ExpenseResponse {
     private LocalDate date;
     private String categoryName; // flattened, not the full Category entity
 
-
-
 }
